@@ -3,3 +3,4 @@ auto-save-list
 .cache
 custom.el
 projectile.*
+projectile-bookmarks.eld
