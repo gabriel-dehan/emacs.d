@@ -26,10 +26,7 @@
 (require-package 'rainbow-mode)
 
 ;; Themes
-;(load-file "themes/almost-molokai.el")
-(load-file "themes/color-theme-molokai.el")
-
-;(color-theme-almost-monokai)
+(load-file (concat user-emacs-directory "themes/color-theme-molokai.el"))
 (color-theme-molokai)
 
 (provide 'init-eyecandy)

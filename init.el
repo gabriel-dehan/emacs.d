@@ -2,6 +2,7 @@
 (add-to-list 'load-path (concat user-emacs-directory "config"))
 (add-to-list 'load-path (concat user-emacs-directory "elisp"))
 (add-to-list 'load-path (concat user-emacs-directory "themes"))
+(add-to-list 'load-path (concat user-emacs-directory "vendor/"))
 
 (require 'cl)
 
@@ -14,4 +15,5 @@
 (require 'init-elisp)
 (require 'init-ruby)
 (require 'init-rails)
+(require 'init-handlebars)
 (require 'init-eyecandy)

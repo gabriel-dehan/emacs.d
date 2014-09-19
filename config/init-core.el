@@ -4,6 +4,7 @@
 ; Use space instead of tabs
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 2)
+(setq js-indent-level 2)
 
 ; Delete startup message
 (setq inhibit-startup-message t)
