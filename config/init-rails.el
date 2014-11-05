@@ -4,12 +4,16 @@
 (require-package 'less-css-mode)
 (require-package 'scss-mode)
 (require-package 'less-css-mode)
+(require-package 'yaml-mode)
 
 (require 'rinari)
 
 (add-hook 'ruby-mode-hook
           (lambda ()
             (rinari-launch)))
+
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
 
 (require 'rhtml-mode)
 (add-hook 'rhtml-mode-hook
